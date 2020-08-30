@@ -6,7 +6,6 @@ namespace CSharp0007_CylinderSurfaceAreaAndVolume
     {
         static void Main(string[] args)
         {
-
             double Feet = 3.2808399;
 
             Console.Write("Type the radius of cylinder: ");
