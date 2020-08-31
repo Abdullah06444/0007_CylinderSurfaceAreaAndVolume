@@ -12,7 +12,7 @@ int main()
 	cout << "Type the high of cyclinder: ";
 	cin >> high;
 
-	result = 2 * M_PI * radius * (high+radius);
+	result = 2 * M_PI * radius * (high + radius);
 	result2 = M_PI * radius * radius * high;
 
 	cout << "The surface area of cylinder is " << result << " meters^2 and " << result * Feet * Feet << " feets^2." << endl;
