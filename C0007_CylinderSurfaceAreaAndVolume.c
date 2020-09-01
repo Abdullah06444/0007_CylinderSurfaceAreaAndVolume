@@ -13,7 +13,7 @@ int main()
 	printf("Type the high of cyclinder: ");
 	scanf("%f", &high);
 
-	result = 2 * M_PI * radius* (high+radius);
+	result = 2 * M_PI * radius * (high + radius);
 	result2 = M_PI * radius * radius * high;
 
 	printf("The surface area of cylinder is %f meters^2 and %f feets^2.\n", result, result * Feet * Feet);
